@@ -25,7 +25,7 @@ class Register extends React.Component  {
 
     onRegisterIn = () => {
         console.log(this.state);
-        fetch('http://localhost:3000/register', {
+        fetch('https://radiant-beach-40923.herokuapp.com/register', {
             method: 'post',
             headers: {'content-Type':'application/json'},
             body: JSON.stringify({
